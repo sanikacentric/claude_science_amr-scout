@@ -1,0 +1,5 @@
+date,session,task,prompt_summary,worked (Y/partial/N),errors_found,reviewer_caught (Y/N/NA),minutes,notes
+YYYY-MM-DD,1,Load isolate table,,,,,,
+YYYY-MM-DD,2,Flag carbapenemase genes,,,,,,
+YYYY-MM-DD,3,Prevalence by country + figure,,,,,,
+YYYY-MM-DD,4,BioLit literature grounding,,,,,,
