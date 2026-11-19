@@ -1,0 +1,16 @@
+gene,n_isolates,subclass,hierarchy_node,product_name
+blaOXA-1,4087,CEPHALOSPORIN,blaOXA-1,oxacillin-hydrolyzing class D beta-lactamase OXA-1
+blaOXA-9,1620,BETA-LACTAM,blaOXA-9,oxacillin-hydrolyzing class D beta-lactamase OXA-9
+blaOXA,889,CEPHALOSPORIN,blaOXA-1,oxacillin-hydrolyzing class D beta-lactamase OXA-1
+blaOXA-10,273,CEPHALOSPORIN,blaOXA-10,oxacillin-hydrolyzing class D beta-lactamase OXA-10
+blaOXA-2,52,BETA-LACTAM,blaOXA-2,oxacillin-hydrolyzing class D beta-lactamase OXA-2
+blaOXA-926,22,BETA-LACTAM,blaOXA-926,class D beta-lactamase OXA-926
+blaOXA-1391,8,BETA-LACTAM,blaOXA-1391,OXA-1 family class D beta-lactamase OXA-1391
+blaOXA-1201,5,CEPHALOSPORIN,blaOXA-1201,OXA-48 family class D beta-lactamase OXA-1201
+blaOXA-1451,5,BETA-LACTAM,blaOXA-1451,OXA-1 family class D beta-lactamase OXA-1451
+blaOXA-1367,3,BETA-LACTAM,blaOXA-1367,OXA-1 family class D beta-lactamase OXA-1367
+blaOXA-72,2,CARBAPENEM,blaOXA-72,OXA-24 family carbapenem-hydrolyzing class D beta-lactamase 
+blaOXA-484,2,CARBAPENEM,blaOXA-484,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase 
+blaOXA-780,1,BETA-LACTAM,blaOXA-780,class D beta-lactamase OXA-780
+blaOXA-1087,1,BETA-LACTAM,blaOXA-1087,OXA-10 family class D beta-lactamase OXA-1087
+blaOXA-932,1,BETA-LACTAM,blaOXA-932,OXA-10 family class D beta-lactamase OXA-932

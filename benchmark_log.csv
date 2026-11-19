@@ -1,5 +1,4 @@
 date,session,task,prompt_summary,worked (Y/partial/N),errors_found,reviewer_caught (Y/N/NA),minutes,notes
-YYYY-MM-DD,1,Load isolate table,,,,,,
-YYYY-MM-DD,2,Flag carbapenemase genes,,,,,,
-YYYY-MM-DD,3,Prevalence by country + figure,,,,,,
-YYYY-MM-DD,4,BioLit literature grounding,,,,,,
+2026-11-18,1,Load and clean,Parse country + drop missing locations,Y,"Prompt's '2023 collection' claim unverifiable (Create date != collection date); 'not collected' placeholder slipped past filter",Y,4,"Self-flagged 5 data-quality issues unprompted incl. sampling bias and non-ISO country names"
+2026-11-18,2,Flag carbapenemase genes,Regex/prefix match for KPC NDM OXA-48-like VIM IMP,Y,"Prompt's OXA-48-like list missed blaOXA-484; GES-5, GES-24, NWM-1 outside requested families",Y,13,"Resolved ambiguous OXA alleles against NCBI Reference Gene Catalog instead of recall; excluded ompK35/36 porins; asked human to decide 3 ambiguous calls"
+2026-11-18,3,Functional reclassification + figure,Apply CARBAPENEM-subclass rule; grouped bar chart top 10 countries,partial,"Strict string equality would have dropped CARBAPENEM/TANIBORBACTAM alleles (caught + fixed); rule silently removed 142 KPC-variant isolates (flagged for human confirmation)",Y,20,"Windows Application Control blocked matplotlib/Pillow/scipy DLLs; new conda env also blocked; built pure-Python numpy PNG renderer (prender.py) for true 300-dpi figure. Recovered, but not recoverable by a non-coder -> product ask: preflight-check compiled extensions"

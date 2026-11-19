@@ -1,0 +1,9 @@
+family,v1_n,n,pct,delta_vs_v1
+KPC_family_present,3604,3604,24.91,0
+KPC_functional,3604,3462,23.93,-142
+NDM,3945,3945,27.27,0
+OXA_48_like,2230,2232,15.43,2
+VIM,63,63,0.44,0
+IMP,59,59,0.41,0
+Other,0,14,0.1,14
+any_carbapenemase,8659,8534,58.99,-125
